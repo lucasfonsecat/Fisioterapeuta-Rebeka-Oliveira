@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    font-family: inter ; 
+    color: rgba(97, 0, 116, 1);
+    
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 180px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: rgba(97, 0, 116, 1);
+    opacity: 70%;
+    color: white;
+    cursor: pointer;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-image: url(imagens/papel\ de\ fundo.svg);
+    height: 580px;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#especiali{
+    margin-top: 130px;
+}
+
+#fisio{
+    margin-top: 50px;
+}
+
+#consulta{
+    margin-top: 150px;
+}
+
+#quemSou{
+    text-align: center;
+    margin: 60px 0px 80px 0px;
+}
+
+#pQuemSou{
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+}
+
+.sectComFundo{
+    display: flex;
+    background-image: url(imagens/papel\ de\ fundo.svg);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.textImgComFundo{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.expliComFundo{
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.sectSem{
+    display: flex;
+    height: 500px;
+    align-items: center; 
+}
+
+.textImgSem{
+    text-align: center;
+    margin-right: 10%;
+}
+
+.expliSem{
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+#fisioDomi{
+    display: flex;
+    background-image: url(imagens/papel\ de\ fundo.svg);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 0px;
+}
+
+footer{
+    height: 250px;
+    background-color: rgba(97, 0, 116, 0.66);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+footer button{
+    color: rgba(97, 0, 116, 1);
+    background-color: white;
+    font-weight: 600;
+    margin: 10px;
+}
